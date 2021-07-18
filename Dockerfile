@@ -5,7 +5,7 @@ MAINTAINER  xiehuiqiang@gmail.com
 
 
 RUN yum update -y; \
-   yum install -y gzip tar wget  perl net-tools unzip netcat gnupg curl vim python-setuptools sudo telnet expect dos2unix python27 python27-devel python27-pip libsnappy-dev nc ; \
+   yum install -y gzip tar wget   net-tools unzip netcat gnupg curl vim   sudo telnet expect dos2unix  libsnappy-dev nc ; \
    binutils freetype fontconfig \
   yum clean all; yum makecache
   
